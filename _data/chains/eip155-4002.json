@@ -1,8 +1,11 @@
 {
   "name": "Fantom Testnet",
   "chain": "FTM",
-  "network": "testnet",
-  "rpc": ["https://rpc.testnet.fantom.network"],
+  "rpc": [
+    "https://rpc.testnet.fantom.network",
+    "https://fantom-testnet.publicnode.com",
+    "wss://fantom-testnet.publicnode.com"
+  ],
   "faucets": ["https://faucet.fantom.network"],
   "nativeCurrency": {
     "name": "Fantom",
@@ -18,7 +21,7 @@
   "explorers": [
     {
       "name": "ftmscan",
-      "url": "https://testnet.ftmscan.com/",
+      "url": "https://testnet.ftmscan.com",
       "icon": "ftmscan",
       "standard": "EIP3091"
     }
